@@ -44,7 +44,13 @@
             "approachRate": "AR",
             "overallDifficulty": "OD",
             "hpDrain": "HP",
-            "circleSize": "CS"
+            "circleSize": "CS",
+            "sliders": "スライダー",
+            "circles": "サークル",
+            "avgSlidersPerSet": "1譜面あたりの平均スライダー数",
+            "avgCirclesPerSet": "1譜面あたりの平均サークル数",
+            "highestSr": "最高SR",
+            "lowestSr": "最低SR"
         },
         "mappers": {
             "name": "マッパー",
@@ -56,7 +62,14 @@
             "mapperAges": "アカウントの年数",
             "mapsPerMapperAges": "アカウントの年数別の譜面数",
             "bng": "BNG",
-            "nat": "NAT"
+            "nat": "NAT",
+            "uniqueMappers": "全てのマッパー",
+            "newMappers": "新規マッパー",
+            "highestAvgSr": "最高平均SR",
+            "leastFavs": "最少のお気に入り数LEAST FAVOURITES",
+            "leastPlayed": "最少のプレイ回数LEAST PLAYED",
+            "lowestAvgSr": "最低平均SR",
+            "mappers": "マッパー"
         },
         "comments": {
             "name": "コメント",
@@ -119,7 +132,7 @@
                 "description": "2人以上の手でトップ難易度が作られた譜面"
             },
             "simple": {
-                "name": "シンプル",
+                "name": "簡単",
                 "description": "トップ難易度がInsaneより易しい譜面"
             },
             "highBPM": {
@@ -137,6 +150,86 @@
             "throwback": {
                 "name": "懐古",
                 "description": "古き良きスタイルで作られた譜面"
+            },
+            "mapper": {
+                "name": "マッパー",
+                "description": "2019年を代表するのにふさわしいマッパー"
+            },
+            "modder": {
+                "name": "モッダー",
+                "description": "2019年を代表するのにふさわしいモッダー"
+            },
+            "hitsounder": {
+                "name": "音付け職人",
+                "description": "質の高いヒットサウンドをつけた人物"
+            },
+            "mostPromising": {
+                "name": "新人賞",
+                "description": "2019年に初Rankedを達成したマッパー"
+            },
+            "mostInfluential": {
+                "name": "インフルエンサー",
+                "description": "多くのマッパーに影響を与え、感化させた偉大なマッパー"
+            },
+            "outCont": {
+                "name": "貢献者",
+                "description": "osu!のために献身的に尽くした人物"
+            },
+            "spread": {
+                "name": "スプレッド",
+                "description": "難易度間のスプレッドがきれいな譜面"
+            },
+            "experimental": {
+                "name": "斬新性",
+                "description": "既存の枠組みから外れた面白い試みをした譜面"
+            },
+            "stream": {
+                "name": "連打",
+                "description": "魅力的な連打を置いた譜面"
+            },
+            "highBPMTaiko": {
+                "name": "高BPM",
+                "description": "240BPMより速い譜面"
+            },
+            "lowBPMTaiko": {
+                "name": "低BPM",
+                "description": "140BPMより遅い譜面"
+            },
+            "simplistic": {
+                "name": "シンプル",
+                "description": "シンプルイズベストを体現した譜面"
+            },
+            "sliderVelocity": {
+                "name": "SV変化",
+                "description": "SV変化を多用した譜面"
+            },
+            "longNotes": {
+                "name": "LN",
+                "description": "LNを多用した譜面"
+            },
+            "antiMeta": {
+                "name": "反主流",
+                "description": "5K/6K/8K/9Kで作られた譜面"
+            },
+            "7K": {
+                "name": "7K",
+                "description": "7Kで作られた譜面"
+            },
+            "technical": {
+                "name": "技術力",
+                "description": "高度な技術を使用したストーリーボード"
+            },
+            "gameplay": {
+                "name": "プレイング",
+                "description": "プレイにかかわる要素を使用したストーリーボード"
+            },
+            "minimalistic": {
+                "name": "ミニマリズム",
+                "description": "簡潔なコードで作られたストーリーボード"
+            },
+            "narrative": {
+                "name": "物語性",
+                "description": "ストーリー展開を含んだストーリーボード"
             }
         },
         "nom_vote": {
@@ -153,7 +246,7 @@
                 "alph": "アルファベット順",
                 "asc": "昇順",
                 "desc": "降順",
-                "incVote": "追加投票",
+                "incVote": "選好投票",
                 "voteChoice": "投票先の選択"
             },
             "hosted": "作成者",
